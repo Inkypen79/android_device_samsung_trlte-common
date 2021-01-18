@@ -43,7 +43,7 @@ fi
 
 echo "Device with bootloader $BOOTLOADER requires $VARIANT blobs"
 
-SYSTEM=/system/system
+SYSTEM=/system
 BLOBBASE=$SYSTEM/blobs/$VARIANT
 
 if [ -d $BLOBBASE ]; then
